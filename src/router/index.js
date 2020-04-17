@@ -2,9 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import About from '../views/About.vue'
-import Jaket from '../views/Jaket.vue'
-import Sweater from '../views/Sweater.vue'
-import Celana from '../views/Celana.vue'
+import Login from '../views/Login.vue'
 
 Vue.use(VueRouter)
 
@@ -20,19 +18,9 @@ const routes = [
     component: About
   },
   {
-    path: '/jaket',
-    name: 'Jaket',
-    component: Jaket
-  },
-  {
-    path: '/sweater',
-    name: 'Sweater',
-    component: Sweater
-  },
-  {
-    path: '/celana',
-    name: 'Celana',
-    component: Celana
+    path: '/login',
+    name: 'Login',
+    component: Login
   }
 ]
 

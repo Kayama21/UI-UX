@@ -115,3 +115,11 @@
 .card-product-price {
     height: 30px;
 }
+
+.cardmenu-login {
+    background-color: white;
+    border-radius: 1%;
+    margin: auto;
+    width: 700px;
+    
+}

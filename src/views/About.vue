@@ -1,18 +1,63 @@
 <template>
 <div class="main bg-color-1">
-  <div class="row">
-    <div class="col-md-3">
-    <div class="card m-2">
-      <div class="card-header bg-color-2">
-        List Category
-      </div>
-      <div class="card-body">
-        <router-link to="/jaket">Jaket<hr></router-link>
-        <router-link to="/sweater">Sweater<hr></router-link>
-        <router-link to="/celana">Celana</router-link>
-      </div>
-    </div>
+  <b-row>
+    <b-col cols="3">
+    <b-card-group deck class="mt-1">
+  <b-card no-body header="Category" header-bg-variant="warning">
+      <b-list-group-item href="#">Category 1</b-list-group-item>
+      <b-list-group-item href="#">Category 2</b-list-group-item>
+      <b-list-group-item href="#">Category 3</b-list-group-item>
+  </b-card>
+</b-card-group>
+  </b-col>
+
+  <b-col cols="9">
+  <div>
+    <b-card-group deck class="mt-1 mr-1">
+      <b-card
+        title="Card Title"
+        img-src="https://picsum.photos/600/300/?image=25"
+        img-alt="Image"
+        img-top
+        tag="article"
+        style="max-width: 20rem;"
+        class="mb-2"
+      >
+        <b-card-text>
+          Some quick example text to build on the card title and make up the bulk of the card's content.
+        </b-card-text>
+      </b-card>
+
+      <b-card
+        title="Card Title"
+        img-src="https://picsum.photos/600/300/?image=25"
+        img-alt="Image"
+        img-top
+        tag="article"
+        style="max-width: 20rem;"
+        class="mb-2"
+      >
+        <b-card-text>
+          Some quick example text to build on the card title and make up the bulk of the card's content.
+        </b-card-text>
+      </b-card>
+
+      <b-card
+        title="Card Title"
+        img-src="https://picsum.photos/600/300/?image=25"
+        img-alt="Image"
+        img-top
+        tag="article"
+        style="max-width: 20rem;"
+        class="mb-2"
+      >
+        <b-card-text>
+          Some quick example text to build on the card title and make up the bulk of the card's content.
+        </b-card-text>
+      </b-card>
+    </b-card-group>
   </div>
-  </div>
+  </b-col>
+  </b-row>
 </div>
 </template>
